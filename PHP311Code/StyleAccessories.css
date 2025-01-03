@@ -1,0 +1,151 @@
+.category-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+.category-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #f5f5f5;
+}
+
+.filter-tags {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem 2rem;
+    flex-wrap: wrap;
+}
+
+.filter-tag {
+    padding: 0.8rem 0.8rem;
+    border: 1px solid #3844bc;
+    border-radius: 16px;
+    color: #3844bc;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+}
+
+.filter-tag span {
+    color: #666;
+}
+
+.main-content {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+
+.filters {
+    width: 300px;
+    padding-right: 1rem;
+}
+
+.filter-section {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1rem 0;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.filter-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.filter-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 14px;
+    color: #333;
+}
+
+.color-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.color-swatch {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+}
+
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin: 0.5rem 0;
+}
+
+.stars {
+    color: #ffb700;
+}
+
+.rating-count {
+    font-size: 12px;
+    color: #666;
+}
+
+.stock-info {
+    padding: 0.5rem;
+    background: #f5f5f5;
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.show-more {
+    color: #3844bc;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 0.5rem;
+}
+
+.sorting {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.sort-select {
+    padding: 0.5rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    font-size: 14px;
+}

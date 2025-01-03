@@ -1,0 +1,124 @@
+.body-container {
+    display: flex;
+    height: 100vh; 
+  }
+  
+  .image-section {
+    width: 50%; 
+    height: 100vh; 
+    background-image: url('images/login-image.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed; /* Stays fixed on the left */
+    left: 0;
+    top: 0;
+  }
+  
+  /* Form Section */
+  .form-section {
+    width: 50%; /* Takes up the other half */
+    margin-left: 50%; /* Pushes it next to the image */
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Enables vertical scrolling */
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Form Container */
+  .form-container {
+    max-width: 400px; /* Center align form and restrict width */
+    margin: auto 140px;
+    padding: 20px 0; /* Vertical padding for spacing */
+  }
+  
+  /* Heading */
+  .form-container h1 {
+    font-size: 1.8rem; /* Adjust size as needed */
+    font-weight: 400; /* Regular weight */
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between form elements */
+  }
+  
+  /* Input Field */
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #3844bc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2e3a9d;
+  }
+  
+  
+  
+  
+  .rec-container {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    margin:30px 100px;
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 2rem;
+  }
+  
+  .recommendations {
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 0;
+    margin-left: 2rem;
+  }
+  
+  .recommendations li {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .recommendations li:before {
+    margin-right: 10px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  
+  .recaptcha-note {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+    margin-left: 9rem;
+  }
+  
+  .recaptcha-note a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .recaptcha-note a:hover {
+    text-decoration: underline;
+  }
+  
